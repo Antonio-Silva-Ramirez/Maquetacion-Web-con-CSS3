@@ -1,0 +1,198 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+    
+}
+
+body {
+  color: #000000;
+  font-weight: bolder;
+}
+
+nav,.container,footer {
+  max-width: 1200px;
+  min-width: 576px;
+  margin:0px auto;
+}
+
+
+
+
+nav {
+  background-color: #4bc6ca;
+  color: rgb(84, 3, 87);
+  font-size: 1.4;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  overflow-y: auto;
+  top: 0px;
+  z-index: 100;
+}
+
+nav div {
+  float: left;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+
+header img {
+  opacity: 0.7;
+  width: 100%;
+}
+
+
+
+aside {
+  background-color: #4bc6ca;
+  border-radius: 20px;
+  color:rgb(84, 3, 87);
+  padding: 10px;
+  position: absolute;
+  right: 15%;
+  text-align: center;
+  top: 30%;
+  width: 20%;
+}
+
+aside a {
+  background-color:rgb(84, 3, 87);
+  border-radius: 10px;
+  color: white;
+  margin-top: 40px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+aside h3 {
+  margin: 20px 0px;
+}
+
+
+main {
+  margin: 0px auto;
+  width: 80%;
+}
+main h1 {
+  text-align: center;
+}
+
+
+main h1::after,
+main:after {
+  background-color: rgb(84, 3, 87);
+  display: block;
+  content: " ";
+  height: 2px;
+  width: 30%;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+
+.logos {
+  overflow-y: auto;
+}
+.logos .logo {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  width: 33%;
+}
+
+.logos .logo img {
+  width: 50%;
+}
+
+
+
+.vertical {
+  margin: 30px auto;
+  overflow-y: auto;
+  width: 70%;
+}
+
+.vertical img {
+  float: left;
+  margin-right: 5%;
+  width: 38%;
+}
+
+.vertical div {
+  float: left;
+  margin-top: 20px;
+  text-align: justify;
+  width: 50%;
+}
+
+.vertical div::first-letter {
+  color: rgb(84, 3, 87);
+  font-size: 2em;
+  font-weight: bolder;
+  padding-right: 5px;
+}
+
+
+.expositorio {
+  clear: both;
+  margin: 20px auto;
+  overflow-y: auto;
+  width: 70%;
+}
+.expositorio img {
+  float: left;
+  width: 30%;
+}
+
+
+footer {
+  background-color: #4bc6ca;
+  clear: both;
+  color:rgb(84, 3, 87);
+  font-weight: bolder;
+  font-size: 0.8;
+  margin-top: 20px;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+footer address {
+  float: left;
+  width: 20%;
+}
+
+footer div {
+  float: left;
+  text-align: center;
+  width: 60%;
+}
+
+footer section {
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+
+footer img {
+  width: 12%;
+}
